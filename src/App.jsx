@@ -3,7 +3,6 @@ import QRCode from "react-qr-code";
 
 
 function App() {
-
   return (
     <div className='bg-red-300'>
       <h1>Buffalo project</h1>
