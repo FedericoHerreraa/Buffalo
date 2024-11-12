@@ -7,7 +7,7 @@ export function UserCard() {
   return (
     <div className="flex items-center gap-10 mt-7 flex-col">
       <div>
-        <h1 className="text-2xl font-bold">Esta es tu Card Personal!</h1>
+        <h1 className="text-2xl font-bold">Esta es tu Card Personal</h1>
         <p>Email de la Persona: </p>
         <p>Nombre de Usuario: </p>
       </div>

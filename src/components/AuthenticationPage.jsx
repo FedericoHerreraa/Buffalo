@@ -1,4 +1,4 @@
-import logo from '../../public/logo.png'
+import logo from '../images/logo.png'
 import { useState } from 'react'
 
 
@@ -40,7 +40,7 @@ export default function AuthenticationPage() {
                         onChange={(value) => setEmail(value)}
                         type="text" 
                         className="border rounded-lg border-gray-300 p-2 w-80 mt-4" 
-                        placeholder="Email" 
+                        placeholder="Dirección de Correo" 
                     />
 
                     <input 
@@ -48,7 +48,7 @@ export default function AuthenticationPage() {
                         onChange={(value) => setPassword(value)}
                         type="password" 
                         className="border rounded-lg border-gray-300 p-2 w-80 mt-4" 
-                        placeholder="Password" 
+                        placeholder="Contraseña" 
                     />
 
                     <button 
