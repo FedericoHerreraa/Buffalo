@@ -13,12 +13,16 @@ import { Button } from "../../components/ui/button"
 import { UserCard } from "../../components/User/UserCard"
 import HeaderUser from "../../components/User/HeaderUser"
 import CoffeeProgress from "../../components/User/CoffeeProgress"
+import CarouselComponent from "../../components/User/Carousel"
   
 
 export default function HomeUser() {
     return (
         <div>
             <HeaderUser />
+            <div className="mt-10">
+                <CarouselComponent />
+            </div>
             <div>
                 <h1 className="text-center mt-10 text-3xl">Progreso de cafes</h1>
                 <CoffeeProgress />
